@@ -65,9 +65,9 @@ org.apache.cordova.device-motion@0.2.11
 * Renamed **Windows8** -> **Windows**
 
 org.apache.cordova.dialogs@0.2.11
-* [CB-7737](https://issues.apache.org/jira/browse/CB-7737) **Windows Phone** lower min height for alert
-* [CB-8038](https://issues.apache.org/jira/browse/CB-8038) backslash getting escaped twice in **BlackBerry 10**
-* [CB-8029](https://issues.apache.org/jira/browse/CB-8029) test 1-based indexing for confirm
+* [CB-7737](https://issues.apache.org/jira/browse/CB-7737) **Windows Phone** Lower min height for alert
+* [CB-8038](https://issues.apache.org/jira/browse/CB-8038) Backslash getting escaped twice in **BlackBerry 10**
+* [CB-8029](https://issues.apache.org/jira/browse/CB-8029) Test 1-based indexing for confirm
 * [CB-7639](https://issues.apache.org/jira/browse/CB-7639) Update docs + manual tests
 * [CB-7639](https://issues.apache.org/jira/browse/CB-7639) **Windows 8** Revert back `isAlertShowing` flag in case of exception to prevent queuing of future dialogs.
 * [CB-7639](https://issues.apache.org/jira/browse/CB-7639) Handle button labels as array on windows
@@ -82,7 +82,7 @@ org.apache.cordova.file@1.3.2
 * [CB-7602](https://issues.apache.org/jira/browse/CB-7602): **Android** Fix `isCopyOnItself` logic
 * Use one proxy for both **Windows** and **Windows8** platforms
 * [CB-6994](https://issues.apache.org/jira/browse/CB-6994) **Windows** Fixes result, returned by proxy's write method
-* **Firefox OS** update `__format__` to match `pathsPrefix`
+* **Firefox OS** Update `__format__` to match `pathsPrefix`
 * [CB-6994](https://issues.apache.org/jira/browse/CB-6994) **Windows** Improves merged code to be able to write a File
 * Optimize `FileProxy` for **Windows** platforms
 * Synchronize changes with **Windows** platform
@@ -91,9 +91,9 @@ org.apache.cordova.file@1.3.2
 * [CB-7487](https://issues.apache.org/jira/browse/CB-7487) **Android** Broadcast file write This allows MTP USB shares to show the file immediately without reboot/manual refresh using 3rd party app.
 
 org.apache.cordova.file-transfer@0.4.8
-* [CB-8021](https://issues.apache.org/jira/browse/CB-8021) Adds documentation for `httpMethod` to `doc/index.md`. However, translations still need to be addressed.
-* [CB-7223](https://issues.apache.org/jira/browse/CB-7223) spec.27 marked pending for **wp8**
-* [CB-6900](https://issues.apache.org/jira/browse/CB-6900) fixed `spec.7` for **wp8**
+* [CB-8021](https://issues.apache.org/jira/browse/CB-8021) Adds documentation for `httpMethod` to `doc/index.md`.
+* [CB-7223](https://issues.apache.org/jira/browse/CB-7223) `spec.27` marked pending for **wp8**
+* [CB-6900](https://issues.apache.org/jira/browse/CB-6900) Fixed `spec.7` for **wp8**
 * [CB-7944](https://issues.apache.org/jira/browse/CB-7944) Pended unsupported auto tests for **Windows**
 
 org.apache.cordova.geolocation@0.3.11
@@ -112,10 +112,10 @@ org.apache.cordova.inappbrowser@0.5.4
 * [CB-7695](https://issues.apache.org/jira/browse/CB-7695) Fix `InAppBrowser` `injectScriptFile` for **Windows 8.1** / **Windows Phone 8.1**
 * [CB-7692](https://issues.apache.org/jira/browse/CB-7692) **Windows 8.1** `InAppBrowser` local url opening bug in 8.1
 * [CB-7688](https://issues.apache.org/jira/browse/CB-7688) `Alert` is not supported in `InAppBrowser` on **Windows** platform
-* [CB-7876](https://issues.apache.org/jira/browse/CB-7876) change test target to avoid undesired redirects
-* [CB-7712](https://issues.apache.org/jira/browse/CB-7712) **Android** remove references to `closebuttoncaption`
-* [CB-7850](https://issues.apache.org/jira/browse/CB-7850) clarify role of whitelist
-* [CB-7720](https://issues.apache.org/jira/browse/CB-7720) check if event is null since OK string from success callback was removed
+* [CB-7876](https://issues.apache.org/jira/browse/CB-7876) Change test target to avoid undesired redirects
+* [CB-7712](https://issues.apache.org/jira/browse/CB-7712) **Android** Remove references to `closebuttoncaption`
+* [CB-7850](https://issues.apache.org/jira/browse/CB-7850) Clarify role of whitelist
+* [CB-7720](https://issues.apache.org/jira/browse/CB-7720) Check if event is null since OK string from success callback was removed
 
 org.apache.cordova.media@0.2.15
 * [CB-6153](https://issues.apache.org/jira/browse/CB-6153) **Android**: Add docs for volume control behaviour, and fix controls not being reset on page navigation
@@ -134,9 +134,9 @@ org.apache.cordova.splashscreen@0.3.5
 org.apache.cordova.statusbar@0.1.9
 * **Android** Fix onload attribute within <feature> to be a <param>
 * [CB-8010](https://issues.apache.org/jira/browse/CB-8010) Statusbar colour does not change to orange
-* **Windows** added checks for running on windows when StatusBar is NOT available
+* **Windows** Added checks for running on windows when StatusBar is NOT available
 * [CB-7986](https://issues.apache.org/jira/browse/CB-7986) Add cordova-plugin-statusbar support for **Windows Phone 8.1**
-* [CB-7549](https://issues.apache.org/jira/browse/CB-7549) - (Re-fix) `StatusBar` **iOS 8** Landscape issue (closes #15)
+* [CB-7549](https://issues.apache.org/jira/browse/CB-7549) (Re-fix) `StatusBar` **iOS 8** Landscape issue (closes #15)
 
 org.apache.cordova.vibration@0.3.12
 * [CB-8018](https://issues.apache.org/jira/browse/CB-8018) Add `vibrate(pattern)` fallback on vibrate for **Windows Phone 8**
