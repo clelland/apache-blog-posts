@@ -43,7 +43,6 @@ Changes include:
 org.apache.cordova.battery-status@0.2.12
 * [CB-7976](https://issues.apache.org/jira/browse/CB-7976) **Android** Use webView's context rather than Activity's context for intent receiver
 * [CB-7700](https://issues.apache.org/jira/browse/CB-7700) cordova-plugin-battery-status documentation translation: cordova-plugin-battery-status
-* [CB-7571](https://issues.apache.org/jira/browse/CB-7571) Bump version of nested plugin to match parent plugin
 
 org.apache.cordova.camera@0.3.4
 * [CB-7977](https://issues.apache.org/jira/browse/CB-7977) Mention `deviceready` in plugin docs
@@ -71,19 +70,16 @@ org.apache.cordova.device@0.2.13
 * **Browser** Changing `device.platform` to always report the platform as "browser".
 * [CB-5892](https://issues.apache.org/jira/browse/CB-5892) **iOS** Remove deprecated `window.Settings`
 * [CB-7700](https://issues.apache.org/jira/browse/CB-7700) cordova-plugin-device documentation translation: cordova-plugin-device
-* [CB-7571](https://issues.apache.org/jira/browse/CB-7571) Bump version of nested plugin to match parent plugin
 
 org.apache.cordova.device-motion@0.2.11
 * [CB-8083](https://issues.apache.org/jira/browse/CB-8083) Fix `accelerometer` callback on **Windows**
 * Renamed **Windows8** -> **Windows**
 * [CB-7977](https://issues.apache.org/jira/browse/CB-7977) Mention `deviceready` in plugin docs
 * [CB-7700](https://issues.apache.org/jira/browse/CB-7700) cordova-plugin-device-motion documentation translation: cordova-plugin-device-motion
-* [CB-7571](https://issues.apache.org/jira/browse/CB-7571) Bump version of nested plugin to match parent plugin
 
 org.apache.cordova.device-orientation@0.3.10
 * [CB-7977](https://issues.apache.org/jira/browse/CB-7977) Mention `deviceready` in plugin docs
 * [CB-7700](https://issues.apache.org/jira/browse/CB-7700) cordova-plugin-device-orientation documentation translation: cordova-plugin-device-orientation
-* [CB-7571](https://issues.apache.org/jira/browse/CB-7571) Bump version of nested plugin to match parent plugin
 
 org.apache.cordova.dialogs@0.2.11
 * [CB-7737](https://issues.apache.org/jira/browse/CB-7737) **Windows Phone** lower min height for alert
@@ -98,7 +94,6 @@ org.apache.cordova.dialogs@0.2.11
 * **Android** Unbreak `API` level < `14`
 * [CB-7414](https://issues.apache.org/jira/browse/CB-7414) **BlackBerry 10** Document callback parameter for `navigator.notification.alert`
 * [CB-7700](https://issues.apache.org/jira/browse/CB-7700) cordova-plugin-dialogs documentation translation: cordova-plugin-dialogs
-* [CB-7571](https://issues.apache.org/jira/browse/CB-7571) Bump version of nested plugin to match parent plugin
 
 org.apache.cordova.file@1.3.2
 * **Android** Gets rid of thread block error in File plugin
@@ -116,7 +111,6 @@ org.apache.cordova.file@1.3.2
 * **iOS** Write file in background
 * [CB-7487](https://issues.apache.org/jira/browse/CB-7487) **Android** Broadcast file write This allows MTP USB shares to show the file immediately without reboot/manual refresh using 3rd party app.
 * [CB-7700](https://issues.apache.org/jira/browse/CB-7700) cordova-plugin-file documentation translation: cordova-plugin-file
-* [CB-7571](https://issues.apache.org/jira/browse/CB-7571) Bump version of nested plugin to match parent plugin
 
 org.apache.cordova.file-transfer@0.4.8
 * [CB-8021](https://issues.apache.org/jira/browse/CB-8021) Adds documentation for `httpMethod` to `doc/index.md`. However, translations still need to be addressed.
@@ -181,10 +175,8 @@ org.apache.cordova.statusbar@0.1.9
 * [CB-7979](https://issues.apache.org/jira/browse/CB-7979) Each plugin doc should have a ## Installation section
 * [CB-7549](https://issues.apache.org/jira/browse/CB-7549) - (Re-fix) `StatusBar` **iOS 8** Landscape issue (closes #15)
 * [CB-7700](https://issues.apache.org/jira/browse/CB-7700) cordova-plugin-statusbar documentation translation: cordova-plugin-statusbar
-* [CB-7571](https://issues.apache.org/jira/browse/CB-7571) Bump version of nested plugin to match parent plugin
 
 org.apache.cordova.vibration@0.3.12
 * [CB-8018](https://issues.apache.org/jira/browse/CB-8018) Add `vibrate(pattern)` fallback on vibrate for **Windows Phone 8**
 * [CB-7977](https://issues.apache.org/jira/browse/CB-7977) Mention `deviceready` in plugin docs
 * [CB-7700](https://issues.apache.org/jira/browse/CB-7700) cordova-plugin-vibration documentation translation: cordova-plugin-vibration
-* [CB-7571](https://issues.apache.org/jira/browse/CB-7571) Bump version of nested plugin to match parent plugin
